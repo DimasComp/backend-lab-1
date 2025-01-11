@@ -1,5 +1,5 @@
 from flask import Flask
-from backend.views import main
+from server.views import main
 
 app = Flask(__name__)
 
