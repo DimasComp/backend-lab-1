@@ -2,7 +2,7 @@
 
 (Демчик Дмитро ІМ-21)
 
-Запуск: source env/bin/activate && python run.py
+Запуск: source env/bin/activate && pip install -r requirements.txt && python run.py
 
 З docker: docker build -t app . && docker run -it --rm --network=host app
 
